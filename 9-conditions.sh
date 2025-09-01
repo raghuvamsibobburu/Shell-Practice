@@ -2,13 +2,11 @@
 
 NUMBER=$1
 
-if [ $Number -gt 10 ]
+if [ $Number -lt 10 ]
 then
-  echo "number is greater then 10"
+  echo "Given $Number is less then 10"
 
 else
-
-  echo "number is less then 10"
-
+  echo "Given $Number is not less then 10"
 fi
 
