@@ -11,3 +11,5 @@ echo "$PERSON1 : yeah doing good"
 echo "$PERSON2 : what about $PERSON3"
 echo "$PERSON1 : He is also good"
 echo "$PERSON3 : hi $PERSON2 and $PERSON1 how are you"
+
+# sh 4-variables.sh trump modi musk --> execute with values
