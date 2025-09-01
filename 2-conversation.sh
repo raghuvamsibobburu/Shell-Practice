@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 echo "Trump : Hi modi how are you"
 echo "modi : Hello trump doing good what about you"
