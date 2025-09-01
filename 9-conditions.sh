@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if[number gt 10]then
+if[number gt 10]; then
 
 echo "number is greater then 10"
 
