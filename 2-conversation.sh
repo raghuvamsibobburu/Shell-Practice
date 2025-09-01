@@ -3,7 +3,7 @@
 echo "Trump : Hi modi how are you"
 echo "modi : Hello trump doing good what about you"
 echo "trump : yeah doing good"
-echo "modi : what about mask"
+echo "modi : what about musk"
 echo "trump : He is also good"
-ech0 "mask : hi modi and trump how are you"
+echo "musk : hi modi and trump how are you"
 
