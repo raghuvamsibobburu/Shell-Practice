@@ -10,6 +10,7 @@ else
     echo "Your running with root access"
 fi
 
+# validate functions takes input as exit status, what command they tried to install
 VALIDATE(){
     if [ $1 -eq 0 ]
     then
@@ -25,7 +26,7 @@ if [ $? -ne 0 ]
 then
     echo "Mysql is Not Installed....Going to Install"
     dnf install mysql -y
-    VALIDATE $? "Mysql"
+    VALIDATE $? "Mysql" #function calling
 else
     echo "Mysql is Already Installed...Nothing todo!"
 fi
@@ -35,7 +36,7 @@ if [ $? -ne 0 ]
 then
     echo "python3 is Not Installed....Going to Install"
     dnf install python3 -y
-    VALIDATE $? "python3"
+    VALIDATE $? "python3" #function calling
 else
     echo "python3 is Already Installed...Nothing todo!"
 fi
@@ -45,7 +46,7 @@ if [ $? -ne 0 ]
 then
     echo "nginx is Not Installed....Going to Install"
     dnf install nginx -y
-    VALIDATE $? "nginx"
+    VALIDATE $? "nginx" #function calling
 else
     echo "nginx is Already Installed...Nothing todo!"
 fi
