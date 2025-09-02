@@ -63,6 +63,4 @@ else
     echo -e "$YELLOW nginx is Already Installed...Nothing todo! $RESET" | tee -a $LOG_FILE
 fi
 
-sleep 10 &
-
 echo "Script Ended at $(date)" | tee -a $LOG_FILE
